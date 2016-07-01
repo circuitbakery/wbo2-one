@@ -11460,11 +11460,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="NERST" class="0">
 <segment>
-<wire x1="-48.26" y1="15.24" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
-<label x="-35.56" y="15.24" size="1.778" layer="95"/>
-<pinref part="PAD6" gate="A" pin="P$1"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="UN"/>
 <wire x1="45.72" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -11912,6 +11907,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="287.02" y1="66.04" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="60.96" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="NERNST" class="0">
+<segment>
+<wire x1="-48.26" y1="15.24" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="-35.56" y="15.24" size="1.778" layer="95"/>
+<pinref part="PAD6" gate="A" pin="P$1"/>
 </segment>
 </net>
 </nets>
