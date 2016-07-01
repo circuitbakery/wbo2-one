@@ -11013,7 +11013,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="U$5" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="U$6" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="U$7" library="GGLibrary" deviceset="ARROW" device=""/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="U$8" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="U$9" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="U$10" library="GGLibrary" deviceset="ARROW" device=""/>
@@ -11037,13 +11037,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="U$30" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
-<part name="Y1" library="GGLibrary" deviceset="CRYSTAL" device="_ILCX13"/>
+<part name="Y1" library="GGLibrary" deviceset="CRYSTAL" device="_ILCX13" value="20MHZ"/>
 <part name="U$31" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="U$32" library="GGLibrary" deviceset="ARROW" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="50R"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="50R"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="200R"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="200R"/>
 </parts>
 <sheets>
 <sheet>
@@ -11075,7 +11075,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="147.32" y="-68.58" size="2.54" layer="95" ratio="10">LSU 4.9 Wideband Oxygen Lambda Sensor Interface</text>
 <text x="147.32" y="-83.82" size="2.54" layer="95" ratio="10">Created by George Baker (pekar.juraj@gmail.com)</text>
 <text x="147.32" y="-88.9" size="2.54" layer="95" ratio="10">Licenced under Creative Commons CC-BY-SA</text>
-<text x="147.32" y="-73.66" size="2.54" layer="95" ratio="10">Version 1</text>
+<text x="147.32" y="-73.66" size="2.54" layer="95" ratio="10">Version 1 / Revision A</text>
 </plain>
 <instances>
 <instance part="P+3" gate="VCC" x="63.5" y="96.52"/>
